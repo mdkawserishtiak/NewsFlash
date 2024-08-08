@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NewsFlash | Home</title>
+
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon.png"
+    />
+
+    <!-- Remix icons -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!-- Swiper.js styles -->
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css" />
+
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="./assets/css/main.css" />
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header class="header" id="header">
+      <div class="container header__container">
+        <a href="./index.html" class="link"><h1 class="logo">NewsFlash</h1></a>
+
+        <nav class="desktop-only">
+          <ul class="header__ul">
+            <li class="header__li"><a href="#" class="link">Home</a></li>
+            <li class="header__li">
+              <a href="#" class="link link--hover-effect">Categories</a>
+            </li>
+            <li class="header__li">
+              <a href="#" class="link link--hover-effect">Reviews</a>
+            </li>
+            <li class="header__li">
+              <a href="#" class="link link--hover-effect">News</a>
+            </li>
+            <li class="header__li">
+              <a href="#" class="link link--hover-effect">Membership</a>
+            </li>
+            <li class="header__li">
+              <a href="#" class="link link--hover-effect">Contact</a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="header__button-group">
+          <button class="link link--hover-effect header__button">
+            <i class="ri-sun-line icon"></i>
+          </button>
+          <button class="link link--hover-effect header__button">
+            <i class="ri-search-line icon"></i>
+          </button>
+          <button class="link link--hover-effect header__button desktop-only">
+            Sign in
+          </button>
+          <button
+            class="link link--hover-effect header__button header__button--border desktop-only"
+          >
+            Sign up
+          </button>
+          <button class="link link--hover-effect header__button mobile-only">
+            <i class="ri-menu-3-line icon"></i>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Search - will be added soon -->
+
+    <!-- Featured articles -->
+    <section class="container section featured-articles">
+      <div class="featured-articles__left-side">
+        <div class="left-side__first">
+          <div class="first__border">
+            <h3 class="first__heading">Breaking News</h3>
+          </div>
+          <p class="first__paragraph">Apple announces a new partnership...</p>
+        </div>
+        <div class="left-side__second">
+          <a href="./post.html" class="link card card--half-width second__card">
+            <p class="card__category">Technology</p>
+
+            <img
+              src="./assets/images/featured/featured-1.jpg"
+              alt="a man wearing VR"
+              class="img card__image"
+            />
+
+            <div class="card__details">
+              <div class="card__data">
+                <span>Dec 5th 2021</span>
+                <div class="data__spacer"></div>
+                <span>8 Min read</span>
+              </div>
+              <h3 class="card__heading">Is VR the future?</h3>
+            </div>
+          </a>
+
+          <a href="./post.html" class="link card card--half-width second__card">
+            <p class="card__category">Food</p>
+
+            <img
+              src="./assets/images/featured/featured-2.jpg"
+              alt="a man wearing VR"
+              class="img card__image"
+            />
+
+            <div class="card__details">
+              <div class="card__data">
+                <span>Dec 6th 2021</span>
+                <div class="data__spacer"></div>
+                <span>4 Min read</span>
+              </div>
+              <h3 class="card__heading">Fine dining 101</h3>
+            </div>
+          </a>
+
+          <a href="./post.html" class="link card card--full-width">
+            <p class="card__category">Health</p>
+
+            <img
+              src="./assets/images/featured/featured-3.jpg"
+              alt="a man wearing VR"
+              class="img card__image"
+            />
+
+            <div class="card__details">
+              <div class="card__data">
+                <span>Dec 5th 2021</span>
+                <div class="data__spacer"></div>
+                <span>5 Min read</span>
+              </div>
+              <h3 class="card__heading">Natural fat burner</h3>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <!-- Trending news -->
+      <div class="featured-articles__right-side">
+        <h2>Trending news</h2>
+
+        <a href="./post.html" class="link right-side__card">
+          <div class="right-side__badge">01</div>
+
+          <img
+            src="./assets/images/trending/trending_1.jpg"
+            alt="a man wearing VR"
+            class="img right-side__image"
+          />
+
+          <div class="right-side__details">
+            <div class="card__data">
+              <span>Dec 5th 2021</span>
+              <div class="data__spacer"></div>
+              <span>5 Min read</span>
+            </div>
+            <h3 class="right-side__heading">Natural fat burner</h3>
+          </div>
+        </a>
+        <hr class="right-side__divider" />
+
+        <a href="./post.html" class="link right-side__card">
+          <div class="right-side__badge">02</div>
+
+          <img
+            src="./assets/images/trending/trending_2.jpg"
+            alt="a man wearing VR"
+            class="img right-side__image"
+          />
+
+          <div class="right-side__details">
+            <div class="card__data">
+              <span>Dec 5th 2021</span>
+              <div class="data__spacer"></div>
+              <span>5 Min read</span>
+            </div>
+            <h3 class="right-side__heading">Natural fat burner</h3>
+          </div>
+        </a>
+        <hr class="right-side__divider" />
+
+        <a href="./post.html" class="link right-side__card">
+          <div class="right-side__badge">03</div>
+
+          <img
+            src="./assets/images/trending/trending_3.jpg"
+            alt="a man wearing VR"
+            class="img right-side__image"
+          />
+
+          <div class="right-side__details">
+            <div class="card__data">
+              <span>Dec 5th 2021</span>
+              <div class="data__spacer"></div>
+              <span>5 Min read</span>
+            </div>
+            <h3 class="right-side__heading">Natural fat burner</h3>
+          </div>
+        </a>
+        <hr class="right-side__divider" />
+
+        <a href="./post.html" class="link right-side__card">
+          <div class="right-side__badge">04</div>
+
+          <img
+            src="./assets/images/trending/trending_4.jpg"
+            alt="a man wearing VR"
+            class="img right-side__image"
+          />
+
+          <div class="right-side__details">
+            <div class="card__data">
+              <span>Dec 5th 2021</span>
+              <div class="data__spacer"></div>
+              <span>5 Min read</span>
+            </div>
+            <h3 class="right-side__heading">Natural fat burner</h3>
+          </div>
+        </a>
+        <hr class="right-side__divider" />
+
+        <a
+          href="./post.html"
+          class="link right-side__card right-side__card--last"
+        >
+          <div class="right-side__badge">05</div>
+
+          <img
+            src="./assets/images/trending/trending_5.jpg"
+            alt="a man wearing VR"
+            class="img right-side__image"
+          />
+
+          <div class="right-side__details">
+            <div class="card__data">
+              <span>Dec 5th 2021</span>
+              <div class="data__spacer"></div>
+              <span>5 Min read</span>
+            </div>
+            <h3 class="right-side__heading">Natural fat burner</h3>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!-- Quick read -->
+    <section class="container section">
+      <h2 class="common-heading" data-name="Quick read">Quick read</h2>
+
+      <!-- Slider main container -->
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <a href="./post.html" class="link card swiper-slide">
+            <img
+              src="./assets/images/quick_read/quick_read_1.jpg"
+              alt="a man wearing VR"
+              class="img card__image"
+            />
+
+            <div class="card__details">
+              <div class="card__data">
+                <span>Dec 5th 2021</span>
+                <div class="data__spacer"></div>
+                <span>8 Min read</span>
+              </div>
+              <h3 class="card__heading">Is VR the future?</h3>
+            </div>
+          </a>
+
+          <a href="./post.html" class="link card swiper-slide">
+            <img
+              src="./assets/images/quick_read/quick_read_2.jpg"
+              alt="a man wearing VR"
+              class="img card__image"
+            />
+
+            <div class="card__details">
+              <div class="card__data">
+                <span>Dec 5th 2021</span>
+                <div class="data__spacer"></div>
+                <span>8 Min read</span>
+              </div>
+              <h3 class="card__heading">Is VR the future?</h3>
+            </div>
+          </a>
+
+          <a href="./post.html" class="link card swiper-slide">
+            <img
+              src="./assets/images/quick_read/quick_read_3.jpg"
+              alt="a man wearing VR"
+              class="img card__image"
+            />
+
+            <div class="card__details">
+              <div class="card__data">
+                <span>Dec 5th 2021</span>
+                <div class="data__spacer"></div>
+                <span>8 Min read</span>
+              </div>
+              <h3 class="card__heading">Is VR the future?</h3>
+            </div>
+          </a>
+
+          <a href="./post.html" class="link card swiper-slide">
+            <img
+              src="./assets/images/quick_read/quick_read_4.jpg"
+              alt="a man wearing VR"
+              class="img card__image"
+            />
+
+            <div class="card__details">
+              <div class="card__data">
+                <span>Dec 5th 2021</span>
+                <div class="data__spacer"></div>
+                <span>8 Min read</span>
+              </div>
+              <h3 class="card__heading">Is VR the future?</h3>
+            </div>
+          </a>
+
+          <a href="./post.html" class="link card swiper-slide">
+            <img
+              src="./assets/images/quick_read/quick_read_5.jpg"
+              alt="a man wearing VR"
+              class="img card__image"
+            />
+
+            <div class="card__details">
+              <div class="card__data">
+                <span>Dec 5th 2021</span>
+                <div class="data__spacer"></div>
+                <span>8 Min read</span>
+              </div>
+              <h3 class="card__heading">Is VR the future?</h3>
+            </div>
+          </a>
+
+          <a href="./post.html" class="link card swiper-slide">
+            <img
+              src="./assets/images/quick_read/quick_read_6.jpg"
+              alt="a man wearing VR"
+              class="img card__image"
+            />
+
+            <div class="card__details">
+              <div class="card__data">
+                <span>Dec 5th 2021</span>
+                <div class="data__spacer"></div>
+                <span>8 Min read</span>
+              </div>
+              <h3 class="card__heading">Is VR the future?</h3>
+            </div>
+          </a>
+        </div>
+
+        <!-- Pagination -->
+        <div class="swiper-pagination swiper__pagination"></div>
+
+        <!-- Navigation buttons -->
+        <div class="swiper-button-prev swiper__button"></div>
+        <div class="swiper-button-next swiper__button"></div>
+      </div>
+    </section>
+
+    <!-- Older posts -->
+    <section class="container section">
+      <h2 class="common-heading" data-name="Older posts">Older posts</h2>
+      <div class="older-posts__container">
+        <a
+          href="./post.html"
+          class="link older-posts__card older-posts__card--hover-effect"
+        >
+          <img
+            src="./assets/images/older_posts/older_posts_1.jpg"
+            alt="a man wearing VR"
+            class="img older-posts__image"
+          />
+
+          <div class="older-posts__details">
+            <div class="card__data">
+              <span>Dec 5th 2021</span>
+              <div class="data__spacer"></div>
+              <span>8 Min read</span>
+            </div>
+            <h3 class="card__heading older-posts__heading">
+              Is VR the future?
+            </h3>
+            <p class="common-paragraph older-posts__paragraph">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Similique a tempore sapiente corporis, eaque fuga placeat odit
+              voluptatibus.
+            </p>
+          </div>
+        </a>
+
+        <a
+          href="./post.html"
+          class="link older-posts__card older-posts__card--hover-effect"
+        >
+          <img
+            src="./assets/images/older_posts/older_posts_2.jpg"
+            alt="a man wearing VR"
+            class="img older-posts__image"
+          />
+
+          <div class="older-posts__details">
+            <div class="card__data">
+              <span>Dec 5th 2021</span>
+              <div class="data__spacer"></div>
+              <span>8 Min read</span>
+            </div>
+            <h3 class="card__heading older-posts__heading">
+              Is VR the future?
+            </h3>
+            <p class="common-paragraph older-posts__paragraph">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Similique a tempore sapiente corporis, eaque fuga placeat odit
+              voluptatibus.
+            </p>
+          </div>
+        </a>
+
+        <a
+          href="./post.html"
+          class="link older-posts__card older-posts__card--hover-effect"
+        >
+          <img
+            src="./assets/images/older_posts/older_posts_3.jpg"
+            alt="a man wearing VR"
+            class="img older-posts__image"
+          />
+
+          <div class="older-posts__details">
+            <div class="card__data">
+              <span>Dec 5th 2021</span>
+              <div class="data__spacer"></div>
+              <span>8 Min read</span>
+            </div>
+            <h3 class="card__heading older-posts__heading">
+              Is VR the future?
+            </h3>
+            <p class="common-paragraph older-posts__paragraph">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Similique a tempore sapiente corporis, eaque fuga placeat odit
+              voluptatibus.
+            </p>
+          </div>
+        </a>
+
+        <a
+          href="./post.html"
+          class="link older-posts__card older-posts__card--hover-effect"
+        >
+          <img
+            src="./assets/images/older_posts/older_posts_4.jpg"
+            alt="a man wearing VR"
+            class="img older-posts__image"
+          />
+
+          <div class="older-posts__details">
+            <div class="card__data">
+              <span>Dec 5th 2021</span>
+              <div class="data__spacer"></div>
+              <span>8 Min read</span>
+            </div>
+            <h3 class="card__heading older-posts__heading">
+              Is VR the future?
+            </h3>
+            <p class="common-paragraph older-posts__paragraph">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Similique a tempore sapiente corporis, eaque fuga placeat odit
+              voluptatibus.
+            </p>
+          </div>
+        </a>
+
+        <a
+          href="./post.html"
+          class="link older-posts__card older-posts__card--hover-effect"
+        >
+          <img
+            src="./assets/images/older_posts/older_posts_5.jpg"
+            alt="a man wearing VR"
+            class="img older-posts__image"
+          />
+
+          <div class="older-posts__details">
+            <div class="card__data">
+              <span>Dec 5th 2021</span>
+              <div class="data__spacer"></div>
+              <span>8 Min read</span>
+            </div>
+            <h3 class="card__heading older-posts__heading">
+              Is VR the future?
+            </h3>
+            <p class="common-paragraph older-posts__paragraph">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Similique a tempore sapiente corporis, eaque fuga placeat odit
+              voluptatibus.
+            </p>
+          </div>
+        </a>
+
+        <a
+          href="./post.html"
+          class="link older-posts__card older-posts__card--hover-effect"
+        >
+          <img
+            src="./assets/images/older_posts/older_posts_6.jpg"
+            alt="a man wearing VR"
+            class="img older-posts__image"
+          />
+
+          <div class="older-posts__details">
+            <div class="card__data">
+              <span>Dec 5th 2021</span>
+              <div class="data__spacer"></div>
+              <span>8 Min read</span>
+            </div>
+            <h3 class="card__heading older-posts__heading">
+              Is VR the future?
+            </h3>
+            <p class="common-paragraph older-posts__paragraph">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Similique a tempore sapiente corporis, eaque fuga placeat odit
+              voluptatibus.
+            </p>
+          </div>
+        </a>
+      </div>
+
+      <a href="#" class="link link--hover-effect older-posts__link"
+        >See more <i class="ri-arrow-right-s-line icon older-posts__icon"></i
+      ></a>
+    </section>
+
+    <!-- Popular tags -->
+    <section class="container section">
+      <h2 class="common-heading" data-name="Popular tags">Popular tags</h2>
+      <div class="popular-tags__container">
+        <a href="#" class="link popular-tags__card">
+          <img
+            src="./assets/images/tags/travel-tag.jpg"
+            alt="a man wearing VR"
+            class="img popular-tags__image"
+          />
+          <div class="popular-tags__tag">#Travel</div>
+        </a>
+
+        <a href="#" class="link popular-tags__card">
+          <img
+            src="./assets/images/tags/food-tag.jpg"
+            alt="a man wearing VR"
+            class="img popular-tags__image"
+          />
+          <div class="popular-tags__tag">#Food</div>
+        </a>
+
+        <a href="#" class="link popular-tags__card">
+          <img
+            src="./assets/images/tags/technology-tag.jpg"
+            alt="a man wearing VR"
+            class="img popular-tags__image"
+          />
+          <div class="popular-tags__tag">#Technology</div>
+        </a>
+
+        <a href="#" class="link popular-tags__card">
+          <img
+            src="./assets/images/tags/health-tag.jpg"
+            alt="a man wearing VR"
+            class="img popular-tags__image"
+          />
+          <div class="popular-tags__tag">#Health</div>
+        </a>
+
+        <a href="#" class="link popular-tags__card">
+          <img
+            src="./assets/images/tags/nature-tag.jpg"
+            alt="a man wearing VR"
+            class="img popular-tags__image"
+          />
+          <div class="popular-tags__tag">#Nature</div>
+        </a>
+
+        <a href="#" class="link popular-tags__card">
+          <img
+            src="./assets/images/tags/fitness-tag.jpg"
+            alt="a man wearing VR"
+            class="img popular-tags__image"
+          />
+          <div class="popular-tags__tag">#Fitness</div>
+        </a>
+      </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="container section">
+      <h2 class="common-heading" data-name="Newsletter">Newsletter</h2>
+
+      <div class="newsletter__container">
+        <h3 class="newsletter__heading">Subscribe to NewsFlash</h3>
+        <p class="common-paragraph">
+          Lorem ipsum dolor sit amet consectetur adipisicing quaerat
+          dignissimos.
+        </p>
+
+        <form action="/" class="newsletter__form">
+          <input
+            type="email"
+            placeholder="Enter your email address"
+            class="newsletter__input"
+          />
+          <button
+            type="submit"
+            class="newsletter__button link link--hover-effect"
+          >
+            <i class="ri-mail-send-line icon"></i>
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container section footer__container">
+        <div class="footer__branding">
+          <div>
+            <a href="./index.html" class="link"
+              ><h1 class="logo footer__logo">NewsFlash</h1></a
+            >
+            <p class="common-paragraph">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere,
+              iure. Harum, animi dolores, nam, ad magni expedita.
+            </p>
+
+            <div class="social-media">
+              <a href="#" class="link link--hover-effect"
+                ><i class="ri-instagram-line icon social-media__icon"></i
+              ></a>
+              <a href="#" class="link link--hover-effect"
+                ><i class="ri-facebook-circle-line icon social-media__icon"></i
+              ></a>
+              <a href="#" class="link link--hover-effect"
+                ><i class="ri-twitter-line icon social-media__icon"></i
+              ></a>
+              <a href="#" class="link link--hover-effect"
+                ><i class="ri-pinterest-line icon social-media__icon"></i
+              ></a>
+            </div>
+          </div>
+
+          <p class="common-paragraph footer__copyright">
+            ©2024 NewsFlash. All rights reserved.
+          </p>
+        </div>
+
+        <div class="footer__menu">
+          <h4 class="menu__heading">Categories</h4>
+          <a href="./index.html" class="link link--hover-effect menu__link"
+            >Travel</a
+          >
+          <a href="./index.html" class="link link--hover-effect menu__link"
+            >Food</a
+          >
+          <a href="./index.html" class="link link--hover-effect menu__link"
+            >Technology</a
+          >
+          <a href="./index.html" class="link link--hover-effect menu__link"
+            >Health</a
+          >
+          <a href="./index.html" class="link link--hover-effect menu__link"
+            >Nature</a
+          >
+          <a href="./index.html" class="link link--hover-effect menu__link"
+            >Fitness</a
+          >
+        </div>
+
+        <div class="footer__menu">
+          <h4 class="menu__heading">Useful links</h4>
+          <a href="./index.html" class="link link--hover-effect menu__link"
+            >Home</a
+          >
+          <a href="./index.html" class="link link--hover-effect menu__link"
+            >Elements</a
+          >
+          <a href="./index.html" class="link link--hover-effect menu__link"
+            >Tags</a
+          >
+          <a href="./index.html" class="link link--hover-effect menu__link"
+            >Authors</a
+          >
+          <a href="./index.html" class="link link--hover-effect menu__link"
+            >Membership</a
+          >
+        </div>
+
+        <div class="footer__menu">
+          <h4 class="menu__heading">Company</h4>
+          <a href="./index.html" class="link link--hover-effect menu__link"
+            >Contact us</a
+          >
+          <a href="./index.html" class="link link--hover-effect menu__link"
+            >F.A.Q</a
+          >
+          <a href="./index.html" class="link link--hover-effect menu__link"
+            >Careers</a
+          >
+          <a href="./index.html" class="link link--hover-effect menu__link"
+            >Authors</a
+          >
+          <a href="./index.html" class="link link--hover-effect menu__link"
+            >Memberships</a
+          >
+        </div>
+      </div>
+    </footer>
+
+    <!-- Swiper.js -->
+    <script src="./assets/js/swiper-bundle.min.js"></script>
+
+    <!-- Custom script -->
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
